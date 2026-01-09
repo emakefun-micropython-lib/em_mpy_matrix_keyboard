@@ -43,7 +43,7 @@ class MatrixKeyboard:
         (KEY_D, "D"),
     )
 
-    def __init__(self, i2c, i2c_address=DEFAULT_I2C_ADDRESS):
+    def __init__(self, i2c, i2c_address):
         self._i2c = i2c
         self._i2c_address = i2c_address
         self._key_states = 0
